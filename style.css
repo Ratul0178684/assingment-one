@@ -1,63 +1,44 @@
-/* common shared style */
-body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100px;
-    font-style: normal;
+/* banner related style */
+.banner-card {
+    height: 800px;
+
+    position: relative;
+    background-image: url('/resources/Banner\ Image.png');
+    background-repeat: none;
+    background-size: cover;
+
+
 }
 
-/* nav related style */
-nav {
+.banner-text {
+    font-size: 50px;
+    color: rgb(3, 107, 155);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin: 0px 200px;
-}
-
-.nav-tittle {
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
-}
-
-.orange {
-    color: #FD6E0A;
-}
-
-nav>ul {
-    display: flex;
-    align-items: center;
-}
-
-nav li {
-    list-style: none;
-    margin-right: 50px;
-}
-
-nav a {
-    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0, 5);
+    padding-top: 300px;
 
 }
 
-.btn-primary {
-    border-radius: 5px;
-    background-color: #FD6E0A;
-    border: 0;
-    font-size: 20px;
-    font-weight: 700px;
-    color: aliceblue;
-    padding: 15px 35px;
+/* main style */
+/* biscount */
+.discount {
+    text-align: center;
+    margin-top: 150px;
 }
 
-/* header related styles */
-.header {
-    background-color: #fff8f3;
+.off {
+    font-size: 100px;
+    color: red;
 }
 
-.banner {
-    padding: 30px 30px 30px 150px;
-    display: flex;
+.deal {
+    color: red;
+
 }
 
-.banner .profile-picture {
-    width: 500px;
+.catagories {
+    font-size: 50px;
 }
