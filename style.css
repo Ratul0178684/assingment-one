@@ -12,7 +12,7 @@
 
 .banner-text {
     font-size: 50px;
-    color: rgb(3, 107, 155);
+    color: whitesmoke;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -41,4 +41,110 @@
 
 .catagories {
     font-size: 50px;
+}
+
+.banner-cards {
+    height: 800px;
+    margin-top: 400px;
+    position: relative;
+    background-image: url('/resources/Vectorrr.png');
+    background-repeat: none;
+    background-size: cover;
+
+}
+
+.banner-texts {
+    font-size: 50px;
+    color: white;
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: rgba(0, 0, 0, 0, 5);
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+.join {
+    padding: 10px 10px 10px 10px;
+    margin-right: 80%;
+
+}
+
+.button {
+    background-color: orangered;
+    border-radius: 5px;
+    color: aliceblue;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 36px;
+}
+
+.btn-primary {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.comming-soon {
+    display: flex;
+    margin-top: 200px;
+    background-color: #FFF8F3;
+    align-items: center;
+    background-image: url('/resources/Group\ 96.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    justify-content: space-between;
+}
+
+.date {
+    color: red;
+    font-size: 30px;
+}
+
+.best {
+    color: red;
+}
+
+.sale {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #FFF8F3;
+
+}
+
+.mid-section {
+    font-size: 100px;
+
+}
+
+.fun {
+    padding-top: 100px;
+}
+
+.span {
+    color: red;
+}
+
+.shopping {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+    background-image: url('/resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.resource {
+    padding-left: 70px;
+}
+
+.Rectangle {
+    padding-right: 700px;
+    background-image: url('/resources/Rectangle\ 1.png');
+    background-position: top;
+    background-repeat: no-repeat;
+
 }
