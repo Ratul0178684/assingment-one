@@ -146,5 +146,66 @@
     background-image: url('/resources/Rectangle\ 1.png');
     background-position: top;
     background-repeat: no-repeat;
+}
 
+/* portfolio related style */
+.portfolio {
+    margin-top: 100px;
+}
+
+.gift {
+    color: red;
+}
+
+.spans {
+    font-size: 60px;
+}
+
+.sunglass {
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.news {
+    background-color: #FFF8F3;
+    text-align: center;
+
+}
+
+.submit {
+
+    background-color: orangered;
+    border-radius: 5px;
+    color: aliceblue;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 36px;
+}
+
+.input {
+    border: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: black;
+    color: #FFF8F3;
+}
+
+.footer-tittle {
+    padding-top: 400px;
+    margin-bottom: 100px;
+}
+
+.footer-tittles {
+    padding-top: 60px;
+
+}
+
+.icon {
+    padding-top: 300px;
 }
